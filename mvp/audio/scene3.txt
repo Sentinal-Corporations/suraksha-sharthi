@@ -1,0 +1,3 @@
+IMG=journey.png
+CAP=SOLUTION — Photo lo, Bhasha me samjho
+NAR=Our flow has four steps. Scan the parchi photo. Read it with hybrid A I, fast offline first, smart cloud when needed. Samjhao: the app explains the disease and dose with voice and pictures in Hindi, Bengali, or Marathi. Yaad: a morning noon night timetable with reminders, plus red alerts for dangerous combinations.

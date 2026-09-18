@@ -1,0 +1,3 @@
+IMG=logo.png
+CAP=HOOK — har ghar ki problem
+NAR=Raise your hand if you have ever struggled to read a doctor's handwriting. In India, more than sixty percent of prescriptions are still handwritten in English. My grandmother once took two medicines instead of one, because nobody could read the slip. We are Team Chanakya, and this is Suraksha Parchi. Clear parchi, safe patient.

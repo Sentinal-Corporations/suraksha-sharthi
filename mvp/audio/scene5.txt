@@ -1,0 +1,3 @@
+IMG=phone-timetable.png
+CAP=DEMO 2 — Rog Samjhao, 3 bhasha
+NAR=Now Rog Samjhao. The A I sees Metformin with a high sugar report and explains in grade five words: this is sugar, take it with food, walk daily, recheck in fifteen days. It speaks in Hindi, switches to Bengali and Marathi, and shows sun cloud moon pictograms, so even illiterate users follow the timetable.

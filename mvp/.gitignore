@@ -1,0 +1,9 @@
+# gitignore — Suraksha Parchi MVP
+.env
+.env.local
+*.key.json
+*serviceAccount*.json
+node_modules/
+.DS_Store
+Thumbs.db
+mvp/demo_video.mp4

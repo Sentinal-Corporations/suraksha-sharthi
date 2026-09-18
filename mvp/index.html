@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Suraksha Parchi — Team CHANAKYA</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="stage">
+<div class="device-wrap">
+<div class="device">
+<div class="notch"></div>
+<div class="screen">
+<div class="topbar">
+<div id="statusbar"><span>9:41</span><span>Suraksha Parchi</span><span>5G&nbsp;&nbsp;100%</span></div>
+<header>
+<img src="../branding/logo.png" alt="logo" onerror="this.style.display='none'">
+<div class="t"><h1>Suraksha Parchi</h1><small>Team CHANAKYA • Photo lo, Bhasha me samjho</small></div>
+<button class="hbtn" id="viewBtn" title="Frame on/off"><span data-ic="monitor"></span></button>
+<button class="hbtn" id="themeBtn" title="Theme toggle"><span data-ic="moon"></span></button>
+<button class="hbtn" id="menuBtn" aria-label="menu"><span data-ic="menu"></span></button>
+</header>
+</div>
+<div id="scrim"></div>
+<nav id="drawer">
+<h3 style="margin:0 0 8px">Menu</h3>
+<a href="#" data-go="landing"><span data-ic="home"></span> Home</a>
+<a href="#" data-go="fill"><span data-ic="scan"></span> New Scan / Fill-up</a>
+<a href="#" data-go="main"><span data-ic="chart"></span> My Result (Sehat File)</a>
+<a href="#" data-go="suvidha"><span data-ic="rupee"></span> Jan Aushadhi Daam</a>
+<a href="#" data-go="suvidha"><span data-ic="hospital"></span> Ayushman Bharat</a>
+<hr>
+<a href="#" data-modal="privacy"><span data-ic="lock"></span> Privacy Policy</a>
+<a href="#" data-modal="terms"><span data-ic="doc"></span> User Agreement</a>
+<a href="#" data-modal="support"><span data-ic="help"></span> Support / Help</a>
+<a href="#" data-modal="about"><span data-ic="info"></span> About CHANAKYA</a>
+<a href="#" data-modal="how"><span data-ic="tool"></span> How it works</a>
+<p class="muted">ayush4ru@gmail.com<br>Hindi • Bengali • Marathi</p>
+<button class="dark" id="closeDr">Close</button>
+</nav>
+<section class="view on" id="v-landing"><div class="wrap">
+<div class="hero"><div>
+<h2>Clear Parchi,<br>Safe Patient.</h2>
+<p>Handwritten parchi ka photo lo — AI mother-tongue me dose, bimari, parhez samjhaye. Offline-first, ASHA-ready.</p>
+<p><button class="cta" data-go="fill">Enter — Scan Parchi</button> <button class="cta2" data-modal="how">How it works</button></p>
+</div><div><img src="../branding/phone-timetable.png" alt="app"></div></div>
+<div class="feat">
+<div class="fcard"><span class="fic" data-ic="camera"></span><br><b>Scan</b><br><span class="muted">Parchi + lab. On-device first, cloud if messy.</span></div>
+<div class="fcard"><span class="fic" data-ic="volume"></span><br><b>Samjhao</b><br><span class="muted">Voice + pictogram timetable, 3 languages.</span></div>
+<div class="fcard"><span class="fic" data-ic="bell"></span><br><b>Yaad</b><br><span class="muted">Reminders + duplicate alert + Sehat File.</span></div>
+<div class="fcard"><span class="fic" data-ic="rupee"></span><br><b>Jan Aushadhi</b><br><span class="muted">Branded vs Kendra daam — 50-70% bachao.</span><br><button class="line" data-go="suvidha">Daam dekho</button></div>
+<div class="fcard"><span class="fic" data-ic="hospital"></span><br><b>Ayushman</b><br><span class="muted">Rs 5 lakh cashless — patrata + packages.</span><br><button class="line" data-go="suvidha">Check karo</button></div>
+<div class="fcard"><span class="fic" data-ic="help"></span><br><b>Helplines</b><br><span class="muted">108 • 112 • 104 • 14555 — ek tap call.</span><br><button class="line" data-go="suvidha">Numbers</button></div>
+</div>
+<div class="card"><h3>Why families need this</h3><p>60% handwritten English parchis. 50% wrong dose. Elders + migrants hit hardest. 10L+ ASHAs have no tool.</p>
+<p><button data-go="fill" class="ghost">Start — Fill-up page</button></p></div>
+</div></section>
+<section class="view" id="v-fill"><div class="wrap">
+<div class="steps"><span class="step">1 Fill-up</span><span class="step">2 Read</span><span class="step">3 Result</span></div>
+<div class="card"><h3>Fill-up — prescription + info</h3>
+<div class="fillgrid">
+<div>
+<label>Parchi photo *</label><input type="file" id="up" accept="image/*">
+<img id="pv" class="preview" src="../branding/sample-parchi.png" alt="parchi">
+<p><button class="ghost" id="useSample" type="button">Use sample parchi</button></p>
+<label>Lab report (optional)</label><input type="file" id="lab" accept="image/*,.pdf">
+</div>
+<div>
+<label>Name (optional)</label><input id="nm" placeholder="e.g. Ramesh">
+<label>Phone for reminders (optional)</label><input id="ph" placeholder="98XXXXXXXX" inputmode="numeric">
+<label>Language</label><select id="lang"><option value="hi">Hindi</option><option value="bn">Bengali</option><option value="mr">Marathi</option></select>
+<label>Symptoms / note</label><textarea id="sym" rows="3" placeholder="e.g. bukhar 3 din"></textarea>
+<p><button id="scanBtn" class="dark">Read — AI se padho</button></p>
+</div>
+</div></div>
+<div class="card"><h3>Scan result <span class="conf" id="conf"></span></h3><div id="chips"></div>
+<p><button class="line" id="addBtn">+ Add Crocin (test duplicate)</button> <button id="expBtn" class="ghost">Enter — Main result</button></p></div>
+</div></section>
+<section class="view" id="v-main"><div class="wrap">
+<div class="steps"><span class="step">Filled</span><span class="step">Read</span><span class="step">Result</span></div>
+<div class="card"><h3>Rog Samjhao <span id="who"></span><br><span id="aibadge" class="aipill">AI starting…</span></h3><div id="explain"><p class="muted">Fill-up se aao.</p></div>
+<p><button class="ghost" id="speakBtn"><span data-ic="volume"></span> Voice me suno</button><button class="dark" id="saveBtn"><span data-ic="save"></span> Sehat File save</button><button class="line" data-go="fill">Back</button></p>
+<div id="voiceScript" class="ok" style="display:none"></div></div>
+<div class="card"><h3>Timetable + Alert</h3><div class="tt" id="tt"></div><div id="alertBox" style="margin-top:10px"></div><div id="jabox" style="margin-top:10px"></div></div>
+<div class="card"><h3>Sehat File — timeline</h3><div id="file"></div><p><button class="line" id="clearBtn"><span data-ic="trash"></span> Delete all</button></p></div>
+</div></section>
+<section class="view" id="v-suvidha"><div class="wrap">
+<div class="steps"><span class="step">Suvidha — Sarkari Sahayata</span></div>
+<div class="card"><h3><span data-ic="rupee"></span> Jan Aushadhi — daam compare</h3>
+<p class="muted">15000+ Kendra • Helpline 1800-180-8080 • Daam indicative, Kendra par verify karo</p>
+<input id="jaq" placeholder="Dawai likho — e.g. metformin, dolo, azithro">
+<div id="jaout"></div></div>
+<div class="card"><h3><span data-ic="hospital"></span> Ayushman Bharat PM-JAY — Rs 5 lakh cashless</h3>
+<p class="muted">Helpline 14555 • beneficiary.nha.gov.in • Docs: ration card + Aadhaar + mobile OTP</p>
+<div id="absteps" class="ok"></div>
+<label>Ilaaj search karo</label><input id="abq" placeholder="e.g. motiyabind, delivery, knee">
+<div id="about"></div></div>
+<div class="card"><h3><span data-ic="help"></span> Helplines — ek tap call</h3><div id="hlout" class="tt"></div></div>
+</div></section>
+<footer><div class="fgrid">
+<div><b style="color:#fff">Suraksha Parchi • CHANAKYA</b><p class="muted" style="color:#B9B2A0">BIC 2.0 Healthcare • Pilot app</p></div>
+<div><b style="color:#fff">Legal</b><a href="#" data-modal="privacy">Privacy Policy</a><a href="#" data-modal="terms">User Agreement</a><a href="#" data-modal="support">Support</a></div>
+<div><b style="color:#fff">Team</b><a href="#" data-modal="about">About CHANAKYA</a><a href="#" data-modal="how">How it works</a><a href="mailto:ayush4ru@gmail.com">ayush4ru@gmail.com</a></div>
+</div>
+<div style="text-align:center" class="muted">Literacy aid, not advice. Emergency: 108. © 2026 CHANAKYA pilot</div></footer>
+<nav id="tabbar">
+<button data-go="landing" class="on"><span class="icwrap" data-ic="home"></span>Home</button>
+<button data-go="fill"><span class="icwrap" data-ic="scan"></span>Scan</button>
+<button data-go="main"><span class="icwrap" data-ic="chart"></span>Result</button>
+<button data-go="suvidha"><span class="icwrap" data-ic="rupee"></span>Suvidha</button>
+</nav>
+<div class="modal" id="m-privacy"><div class="box"><h3>Privacy Policy (pilot)</h3><p class="muted">No Aadhaar needed. Your photos stay private to your phone. View/delete anytime. Kids use with parent consent.</p><button class="dark closeM">Close</button></div></div>
+<div class="modal" id="m-terms"><div class="box"><h3>User Agreement</h3><p class="muted">Explains YOUR prescription, never prescribes new. Red-flag → PHC. Accuracy ~87%, use confirm. Misuse = block.</p><button class="dark closeM">Close</button></div></div>
+<div class="modal" id="m-support"><div class="box"><h3>Support</h3><p>Mail ayush4ru@gmail.com. Saaf photo lo. Voice issue → language/volume. RED alert → doctor/ASHA. Delete via Sehat File.</p><button class="dark closeM">Close</button></div></div>
+<div class="modal" id="m-about"><div class="box"><h3>About CHANAKYA</h3><p>Ayush Pandey (Leader/CDO) + Kaushal Rawat (CMO) +2. Vision: Aaj parchi, kal Sehat File.</p><button class="dark closeM">Close</button></div></div>
+<div class="modal" id="m-how"><div class="box"><h3>How it works</h3><p>Scan → smart read → verified database match → simple explain hi/bn/mr → voice + reminders + alert. Works offline.</p><button class="dark closeM">Close</button></div></div>
+</div><!-- /screen -->
+</div><!-- /device -->
+</div><!-- /device-wrap -->
+<aside class="side">
+<h1>Suraksha Parchi <span>sandbox</span></h1>
+<p>Live app inside a real phone frame — not a resized page. Drawer, modals and tab bar are all contained in the device. On a real phone this same file runs fullscreen.</p>
+<div class="row"><button id="frameBtn">Frame on/off</button><button id="sideThemeBtn">Theme</button></div>
+<div class="drow"><button data-dev="390x844" class="on">iPhone 390×844</button><button data-dev="412x915">Pixel 412×915</button><button data-dev="360x780">Galaxy 360×780</button></div>
+<p class="okline">Team CHANAKYA • BIC 2.0 Healthcare • ayush4ru@gmail.com<br>Try: Scan → add Crocin → duplicate RED alert.</p>
+</aside>
+</div><!-- /stage -->
+<script src="./js/config.public.js"></script>
+<script src="./js/drug-db.js"></script>
+<script src="./js/i18n.js"></script>
+<script src="./js/icons.js"></script>
+<script src="./js/needle2.js"></script>
+<script src="./js/llm.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>

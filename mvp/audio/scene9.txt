@@ -1,0 +1,3 @@
+IMG=logo.png
+CAP=IMPACT — Team CHANAKYA
+NAR=Impact we can measure: adherence up forty percent, antibiotic courses completed, duplicate emergencies prevented, all tracked for a five hundred family health centre pilot. Team Chanakya: Ayush Pandey leads the build, Kaushal Rawat leads field testing. Today parchi, tomorrow the Sehat File for one hundred crore Indians. Thank you.

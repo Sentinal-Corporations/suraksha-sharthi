@@ -1,0 +1,14 @@
+{"meta":{"version":1,"note":"Pairwise interaction rules. generics[] use medicines.json name keys. Checked after brand→generic resolution."},"rules":[
+{"generics":["paracetamol","paracetamol"],"level":"danger","hi":"Dolo + Crocin dono Paracetamol hain — overdose se liver kharab. Ek lo, doctor se poochho.","bn":"Dolo + Crocin dutoi Paracetamol — overdose e liver kharap.","mr":"Dolo + Crocin donhi Paracetamol — overdose ne liver kharab. Ekach ghya."},
+{"generics":["ibuprofen","aspirin"],"level":"danger","hi":"Brufen + Ecosprin saath me pet me khoon ka khatra. Doctor ke bina mat lo.","bn":"Brufen + Ecosprin eksathe pet e rokto jhorte pare.","mr":"Brufen + Ecosprin ekatra potat raktasravacha dhoka."},
+{"generics":["ibuprofen","losartan"],"level":"warn","hi":"Dard ki dawai BP dawai ka asar kam karti hai + kidney load. 3 din se zyada to doctor.","bn":"Byathar osudh BP osudher kaj komay.","mr":"Dukhichi goli BP golicha parinam kami karte."},
+{"generics":["ibuprofen","telmisartan"],"level":"warn","hi":"Dard ki dawai BP dawai ka asar kam karti hai. Doctor ko batao.","bn":"Byathar osudh BP osudher kaj komay.","mr":"Dukhichi goli BP golicha parinam kami karte."},
+{"generics":["metformin","metronidazole"],"level":"warn","hi":"Sugar + infection dawai saath me — sharab bilkul nahi, sugar check karo.","bn":"Sugar + infection osudh — mod noy.","mr":"Sakhar + sansarg goli — daru naka."},
+{"generics":["ciprofloxacin","antacid"],"level":"warn","hi":"Cifran antacid/doodh ke saath kaam nahi karegi. 2 ghante ka gap rakho.","bn":"Cifran antacid/dudh sathe kaj korbe na. 2 ghonta gap.","mr":"Cifran antacid/dudhasobat kam karnar nahi. 2 tas gap theva."},
+{"generics":["ciprofloxacin","iron-folic"],"level":"warn","hi":"Cifran iron ke saath mat lo — 2 ghante gap.","bn":"Cifran iron sathe noy — 2 ghonta gap.","mr":"Cifran lohasobat naka — 2 tas gap."},
+{"generics":["levothyroxine","iron-folic"],"level":"warn","hi":"Thyroid + iron ek saath mat lo — 4 ghante gap, thyroid subah khali pet.","bn":"Thyroid + iron eksathe noy — 4 ghonta gap.","mr":"Thyroid + loh ekatra naka — 4 tas gap."},
+{"generics":["levothyroxine","calcium"],"level":"warn","hi":"Thyroid + calcium ek saath mat lo — 4 ghante gap.","bn":"Thyroid + calcium eksathe noy.","mr":"Thyroid + calcium ekatra naka."},
+{"generics":["atenolol","salbutamol-inhaler"],"level":"warn","hi":"Ye BP dawai dame ke inhaler ka asar kam kar sakti hai. Doctor ko batao.","bn":"Ei BP osudh inhaler er kaj komate pare.","mr":"Hi BP goli inhalercha parinam kami karu shakte."},
+{"generics":["prednisolone","metformin"],"level":"warn","hi":"Steroid sugar badhata hai — sugar roz check karo, doctor ko batao.","bn":"Steroid sugar baray — roj check.","mr":"Steroid sakhar vadhavte — roz tapaasa."},
+{"generics":["aspirin","ibuprofen"],"level":"danger","hi":"Do khoon-patla/dard dawai saath me — pet se khoon ka khatra.","bn":"Duto osudh eksathe — rokto jhorar bhoy.","mr":"Don golya ekatra — raktasravacha dhoka."}
+]}

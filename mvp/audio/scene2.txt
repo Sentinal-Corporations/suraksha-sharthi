@@ -1,0 +1,3 @@
+IMG=architecture.png
+CAP=GAP — apps hain, Bharat ke liye nahi
+NAR=Apps exist, but not for Bharat. City apps need English and internet. Basic scanners fail on cursive handwriting. Generic chatbots guess doses and hallucinate. Nothing reads messy handwriting, speaks the dose in the mother tongue, warns of duplicate drugs, and works offline for an Asha worker. That gap is our product.

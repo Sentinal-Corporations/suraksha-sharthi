@@ -1,0 +1,4 @@
+# models/ — Needle-2 weights: DOWNLOADED, see engine/needle2.cact (13.74MB, verified).
+# This folder stays as the documented drop-point for future .cact builds
+# (e.g. tuned.cact after `needle finetune` on our medicine tools).
+# Full story: docs/NEEDLE2.md. Test: python engine/test_needle2.py

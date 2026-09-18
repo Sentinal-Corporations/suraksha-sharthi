@@ -1,0 +1,21 @@
+{"meta":{"scheme":"Ayushman Bharat PM-JAY","note":"INDICATIVE summary for demo. Verify live on beneficiary.nha.gov.in or helpline 14555. Cover = Rs 5 lakh / family / year, cashless at empanelled hospitals.","cover":"Rs 5,00,000 per family per year, cashless","helpline":"14555 (toll-free) | 1800-111-565","check":"beneficiary.nha.gov.in → 'Am I Eligible' (mobile OTP) → e-KYC → Ayushman card","docs_needed":["Ration card / family ID","Aadhaar of each member","Mobile number for OTP","Income/caste certificate (state-wise)"],"steps_hi":["14555 par call ya beneficiary.nha.gov.in kholo","Mobile OTP se 'Am I Eligible' check karo","Naam aaye to e-KYC + Ayushman card banao","Empanelled hospital me card + Aadhaar dikhao — cashless ilaj"],"steps_bn":["14555 e call ba beneficiary.nha.gov.in khulun","OTP diye eligibility dekho","e-KYC kore card banao, hospital e cashless"],"steps_mr":["14555 var call kinva beneficiary.nha.gov.in ughada","OTP ne patrata tapaasa","e-KYC karun card banva, rugnalayat cashless"]},"packages":[
+{"name":"Cataract surgery (Motiyabind)","code":"PM-JAY/EYE","indicative_price":6500,"note":"Lens sahit, empanelled eye hospital"},
+{"name":"Normal delivery","code":"PM-JAY/OBG","indicative_price":9000,"note":"Maa + navjaat cover"},
+{"name":"C-Section delivery","code":"PM-JAY/OBG","indicative_price":15000,"note":"Complication sahit"},
+{"name":"Knee replacement (single)","code":"PM-JAY/ORTHO","indicative_price":80000,"note":"Implant sahit cap ke andar"},
+{"name":"Hip replacement","code":"PM-JAY/ORTHO","indicative_price":90000,"note":"Implant sahit"},
+{"name":"CABG heart bypass","code":"PM-JAY/CARD","indicative_price":150000,"note":"Top cardiac hospitals"},
+{"name":"Angioplasty + 1 stent","code":"PM-JAY/CARD","indicative_price":80000,"note":"Drug-eluting stent"},
+{"name":"Hernia repair","code":"PM-JAY/SURG","indicative_price":20000,"note":"Mesh sahit"},
+{"name":"Appendix operation","code":"PM-JAY/SURG","indicative_price":18000,"note":"Laparoscopic bhi"},
+{"name":"Gallbladder removal","code":"PM-JAY/SURG","indicative_price":22000,"note":"Laparoscopic"},
+{"name":"Dialysis (per session)","code":"PM-JAY/NEPH","indicative_price":2000,"note":"Regular package"},
+{"name":"Cataract both eyes","code":"PM-JAY/EYE","indicative_price":13000,"note":"Alag-alag date"},
+{"name":"Fracture fixation (rod/plate)","code":"PM-JAY/ORTHO","indicative_price":35000,"note":"Implant sahit"},
+{"name":"Pneumonia admission (child)","code":"PM-JAY/PED","indicative_price":12000,"note":"ICU sahit cap"},
+{"name":"Dengue admission","code":"PM-JAY/MED","indicative_price":10000,"note":"Platelet/ICU cap ke andar"},
+{"name":"TB package (drug-sensitive)","code":"PM-JAY/TB","indicative_price":0,"note":"NIKSHAY + DOTS se muft, PM-JAY admission cover"},
+{"name":"Cancer chemo (per cycle)","code":"PM-JAY/ONC","indicative_price":30000,"note":"Day-care packages"},
+{"name":"MRI brain","code":"PM-JAY/RAD","indicative_price":5000,"note":"Package ke andar jab admit"},
+{"name":"CT scan","code":"PM-JAY/RAD","indicative_price":3000,"note":"Admit case me cover"}
+]}

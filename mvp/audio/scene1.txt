@@ -1,0 +1,3 @@
+IMG=sample-parchi.png
+CAP=PROBLEM — 50% galat dose
+NAR=The numbers are serious. Half of all patients take the wrong dose. One lakh deaths every year come from medication errors. Antibiotics stopped halfway create drug resistance. Ten lakh Asha workers, who carry healthcare to villages, have no tool for this. Elders, migrants, and low-literate families suffer the most.
