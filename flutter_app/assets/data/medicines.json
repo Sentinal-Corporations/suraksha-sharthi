@@ -1,0 +1,1102 @@
+{
+ "meta": {
+  "version": 1,
+  "count": 49,
+  "langs": [
+   "hi",
+   "bn",
+   "mr"
+  ],
+  "note": "Master medicine DB for Suraksha Parchi. Mirrors NeonDB drug_master. brands[] maps shop names to generic key.",
+  "dz": "injected"
+ },
+ "medicines": [
+  {
+   "name": "paracetamol",
+   "brands": [
+    "dolo",
+    "crocin",
+    "calpol",
+    "febrex"
+   ],
+   "mg": [
+    "500mg",
+    "650mg"
+   ],
+   "disease_en": "Fever / Pain",
+   "icd11": "MG48",
+   "hi": "Bukhar/dard ke liye. Khane ke baad 1 goli, din me max 3-4g. Do Paracetamol brand ek saath mat lo.",
+   "bn": "Jor/byathar jonno. Khabar pore 1 ta, dine max 3-4g. Duto brand eksathe neben na.",
+   "mr": "Taap/dukhisathi. Jevnanantar 1 goli, divsat max 3-4g. Don brand ekatra naka.",
+   "red_flag": false,
+   "note": "Duplicate-brand overdose trap",
+   "dz": {
+    "hi": "Bukhar / Dard",
+    "bn": "Jor / Byatha",
+    "mr": "Taap / Dukh"
+   }
+  },
+  {
+   "name": "ibuprofen",
+   "brands": [
+    "brufen",
+    "combiflam-i"
+   ],
+   "mg": [
+    "200mg",
+    "400mg"
+   ],
+   "disease_en": "Pain / Fever / Swelling",
+   "icd11": "MG48",
+   "hi": "Dard/sujan ke liye. Khane ke baad hi lo, khali pet nahi. BP/sugar dawai wale doctor se poochhein.",
+   "bn": "Byatha/fola r jonno. Khabar pore neben, khali pete noy.",
+   "mr": "Dukhi/sujisathi. Jevnanantarach ghya, rikamya poti naka.",
+   "red_flag": false,
+   "note": "NSAID: ulcer, kidney, BP interaction",
+   "dz": {
+    "hi": "Dard / Bukhar / Sujan",
+    "bn": "Byatha / Jor / Fola",
+    "mr": "Dukhi / Taap / Suj"
+   }
+  },
+  {
+   "name": "diclofenac",
+   "brands": [
+    "voveran",
+    "dynapar"
+   ],
+   "mg": [
+    "50mg"
+   ],
+   "disease_en": "Joint/Muscle pain",
+   "icd11": "ME82",
+   "hi": "Jod/kamar dard ke liye. Khane ke baad, lamba course doctor se.",
+   "bn": "Gire byathar jonno. Khabar pore.",
+   "mr": "Sandhedukhisathi. Jevnanantar.",
+   "red_flag": false,
+   "note": "NSAID ulcer risk",
+   "dz": {
+    "hi": "Jod / Maanspeshi dard",
+    "bn": "Gire / mangser byatha",
+    "mr": "Sandhe / snayu dukhi"
+   }
+  },
+  {
+   "name": "aspirin",
+   "brands": [
+    "ecosprin",
+    "loprin"
+   ],
+   "mg": [
+    "75mg",
+    "150mg"
+   ],
+   "disease_en": "Heart protection (blood thinner)",
+   "icd11": "BA00",
+   "hi": "Dil ke liye khoon patla karne wali. Roz 1, doctor ke bina band mat karo.",
+   "bn": "Heart er jonno. Doctor na bolle bondho noy.",
+   "mr": "Hrudayasathi. Doctor shivay band naka.",
+   "red_flag": true,
+   "note": "Bleeding risk; never stop abruptly",
+   "dz": {
+    "hi": "Dil ki suraksha",
+    "bn": "Heart surakkha",
+    "mr": "Hruday suraksha"
+   }
+  },
+  {
+   "name": "mefenamic-acid",
+   "brands": [
+    "meftal"
+   ],
+   "mg": [
+    "500mg"
+   ],
+   "disease_en": "Period pain / Pain",
+   "icd11": "GA34",
+   "hi": "Mahwari dard ke liye. Khane ke baad, 2-3 din se zyada to doctor.",
+   "bn": "Period byathar jonno. Khabar pore.",
+   "mr": "Masik palichya dukhisathi. Jevnanantar.",
+   "red_flag": false,
+   "note": "Short course only",
+   "dz": {
+    "hi": "Mahwari dard",
+    "bn": "Period byatha",
+    "mr": "Masik pali dukhi"
+   }
+  },
+  {
+   "name": "azithromycin",
+   "brands": [
+    "azee",
+    "azithral"
+   ],
+   "mg": [
+    "250mg",
+    "500mg"
+   ],
+   "disease_en": "Bacterial infection (Typhoid/Chest)",
+   "icd11": "1A00",
+   "hi": "Infection maarne ke liye. Roz 1 goli 3-5 din, course pura karo, beech me band mat karo.",
+   "bn": "Infection marar jonno. Roz 1 ta 3-5 din, course sesh koro.",
+   "mr": "Sansarg nasht karasathi. Roz 1 goli 3-5 divas, course purna kara.",
+   "red_flag": false,
+   "note": "AMR: incomplete course danger",
+   "dz": {
+    "hi": "Bacterial infection",
+    "bn": "Bacterial infection",
+    "mr": "Jivanu sansarg"
+   }
+  },
+  {
+   "name": "amoxicillin",
+   "brands": [
+    "novamox",
+    "wymox"
+   ],
+   "mg": [
+    "250mg",
+    "500mg"
+   ],
+   "disease_en": "Bacterial throat/chest infection",
+   "icd11": "CA00",
+   "hi": "Gale/chhati infection ke liye. 5 din course pura. Daane/khujli ho to turant doctor.",
+   "bn": "Gola/buker infection. 5 din course. Rash hole doctor.",
+   "mr": "Ghasa sansarg. 5 divas course. Purad aalyas doctor.",
+   "red_flag": false,
+   "note": "Penicillin allergy watch",
+   "dz": {
+    "hi": "Gale/chhati infection",
+    "bn": "Gola/buker infection",
+    "mr": "Ghasa/chhati sansarg"
+   }
+  },
+  {
+   "name": "amoxiclav",
+   "brands": [
+    "augmentin",
+    "megasafe"
+   ],
+   "mg": [
+    "625mg"
+   ],
+   "disease_en": "Strong bacterial infection",
+   "icd11": "1A00",
+   "hi": "Tez infection ke liye. Khane ke saath, course pura. Dast ho sakta hai.",
+   "bn": "Joralo infection. Khabar sathe, course sesh.",
+   "mr": "Tivra sansarg. Jevanasobat, course purna.",
+   "red_flag": false,
+   "note": "Take with food",
+   "dz": {
+    "hi": "Tez infection",
+    "bn": "Joralo infection",
+    "mr": "Tivra sansarg"
+   }
+  },
+  {
+   "name": "cefixime",
+   "brands": [
+    "taxim-o",
+    "zifi"
+   ],
+   "mg": [
+    "200mg"
+   ],
+   "disease_en": "Typhoid / Urine infection",
+   "icd11": "1A00",
+   "hi": "Typhoid/peshab infection ke liye. Roz 1-2, 7 din course pura.",
+   "bn": "Typhoid/prosrab infection. 7 din course.",
+   "mr": "Vishamjwar/mutra sansarg. 7 divas course.",
+   "red_flag": false,
+   "note": "Complete full course",
+   "dz": {
+    "hi": "Typhoid / peshab infection",
+    "bn": "Typhoid / prosrab infection",
+    "mr": "Vishamjwar / mutra sansarg"
+   }
+  },
+  {
+   "name": "ciprofloxacin",
+   "brands": [
+    "ciplox",
+    "cifran"
+   ],
+   "mg": [
+    "250mg",
+    "500mg"
+   ],
+   "disease_en": "Urine / Stomach bacterial infection",
+   "icd11": "1A00",
+   "hi": "Peshab/pet infection ke liye. Doodh/iron ke saath mat lo, 2 ghante gap.",
+   "bn": "Prosrab/pet infection. Dudh/iron sathe noy.",
+   "mr": "Mutra/pot sansarg. Dudh/loh sobat naka.",
+   "red_flag": false,
+   "note": "Gap with milk, antacids",
+   "dz": {
+    "hi": "Peshab/pet infection",
+    "bn": "Prosrab/pet infection",
+    "mr": "Mutra/pot sansarg"
+   }
+  },
+  {
+   "name": "doxycycline",
+   "brands": [
+    "doxy"
+   ],
+   "mg": [
+    "100mg"
+   ],
+   "disease_en": "Bacterial infection / Acne",
+   "icd11": "1A00",
+   "hi": "Infection ke liye. Paani ke saath khade hokar lo, dhoop se bacho.",
+   "bn": "Infection er jonno. Jol diye neben.",
+   "mr": "Sansargasathi. Panyasobat ghya.",
+   "red_flag": false,
+   "note": "Sun sensitivity; no milk",
+   "dz": {
+    "hi": "Infection / muhase",
+    "bn": "Infection / bron",
+    "mr": "Sansarg / mhurum"
+   }
+  },
+  {
+   "name": "metronidazole",
+   "brands": [
+    "flagyl",
+    "metrogyl"
+   ],
+   "mg": [
+    "200mg",
+    "400mg"
+   ],
+   "disease_en": "Stomach infection / Diarrhea",
+   "icd11": "1A00",
+   "hi": "Pet ke infection/dast ke liye. Dawai ke saath sharab BILKUL nahi.",
+   "bn": "Pet infection/dast. Osudh cholakalin mod noy.",
+   "mr": "Pot sansarg. Aushadhadarmyan daru ajibat naka.",
+   "red_flag": false,
+   "note": "No alcohol — severe reaction",
+   "dz": {
+    "hi": "Pet infection / dast",
+    "bn": "Pet infection / dast",
+    "mr": "Pot sansarg / julaab"
+   }
+  },
+  {
+   "name": "albendazole",
+   "brands": [
+    "zentel",
+    "albomar"
+   ],
+   "mg": [
+    "400mg"
+   ],
+   "disease_en": "Worms (Kide)",
+   "icd11": "1F90",
+   "hi": "Pet ke kide ke liye. 1 goli, 6 mahine baad repeat. Poora parivar le.",
+   "bn": "Krimir jonno. 1 ta, 6 mash pore abar.",
+   "mr": "Jantasathi. 1 goli, 6 mahinyani parat.",
+   "red_flag": false,
+   "note": "Family deworming",
+   "dz": {
+    "hi": "Pet ke kide",
+    "bn": "Kirmi",
+    "mr": "Jant"
+   }
+  },
+  {
+   "name": "metformin",
+   "brands": [
+    "glycomet",
+    "glynase-m"
+   ],
+   "mg": [
+    "500mg",
+    "850mg"
+   ],
+   "disease_en": "Type-2 Diabetes (Sugar)",
+   "icd11": "5A11",
+   "hi": "Sugar control ke liye. Khane ke saath, meetha kam, roz 30 min walk.",
+   "bn": "Sugar niyontron er jonno. Khabar sathe.",
+   "mr": "Sakhar niyantranasathi. Jevanasobat, god kami.",
+   "red_flag": false,
+   "note": "HbA1c>8 = uncontrolled, refer",
+   "dz": {
+    "hi": "Sugar",
+    "bn": "Sugar",
+    "mr": "Sakhar"
+   }
+  },
+  {
+   "name": "glimepiride",
+   "brands": [
+    "amaryl",
+    "glynase"
+   ],
+   "mg": [
+    "1mg",
+    "2mg"
+   ],
+   "disease_en": "Type-2 Diabetes",
+   "icd11": "5A11",
+   "hi": "Sugar ki dawai, nashte se pehle. Pasina/kampan = low sugar, turant meetha lo.",
+   "bn": "Sugar er osudh, jolkhabar age. Gham/kanpuni = low sugar.",
+   "mr": "Sakharechi goli, nashtyaadhi. Gham/tharthar = low sugar.",
+   "red_flag": false,
+   "note": "Hypoglycemia risk",
+   "dz": {
+    "hi": "Sugar",
+    "bn": "Sugar",
+    "mr": "Sakhar"
+   }
+  },
+  {
+   "name": "sitagliptin",
+   "brands": [
+    "januvia",
+    "istavel"
+   ],
+   "mg": [
+    "100mg"
+   ],
+   "disease_en": "Type-2 Diabetes",
+   "icd11": "5A11",
+   "hi": "Sugar ke liye. Roz 1, khana khao ya na khao.",
+   "bn": "Sugar er jonno. Roz 1 ta.",
+   "mr": "Sakharsathi. Roz 1.",
+   "red_flag": false,
+   "note": "Pancreatitis pain = doctor",
+   "dz": {
+    "hi": "Sugar",
+    "bn": "Sugar",
+    "mr": "Sakhar"
+   }
+  },
+  {
+   "name": "insulin-glargine",
+   "brands": [
+    "lantus",
+    "basalog"
+   ],
+   "mg": [
+    "100IU/ml"
+   ],
+   "disease_en": "Diabetes (Insulin)",
+   "icd11": "5A11",
+   "hi": "Sugar ka injection, roz same time. Dose khud mat badlo, fridge me rakho.",
+   "bn": "Sugar er injection. Nije dose bodlaben na.",
+   "mr": "Sakharache injection. Dose swataha badlu naka.",
+   "red_flag": true,
+   "note": "Dose error = emergency",
+   "dz": {
+    "hi": "Sugar (insulin)",
+    "bn": "Sugar (insulin)",
+    "mr": "Sakhar (insulin)"
+   }
+  },
+  {
+   "name": "losartan",
+   "brands": [
+    "losar"
+   ],
+   "mg": [
+    "25mg",
+    "50mg"
+   ],
+   "disease_en": "High BP",
+   "icd11": "BA00",
+   "hi": "High BP ke liye. Roz subah 1, namak kam. Chakkar aaye to baith jao.",
+   "bn": "High BP er jonno. Roz sokale 1, lobon kom.",
+   "mr": "High BP sathi. Roz sakali 1, meeth kami.",
+   "red_flag": false,
+   "note": "BP>180/110 = emergency",
+   "dz": {
+    "hi": "High BP",
+    "bn": "High BP",
+    "mr": "High BP"
+   }
+  },
+  {
+   "name": "telmisartan",
+   "brands": [
+    "telma",
+    "micardis"
+   ],
+   "mg": [
+    "20mg",
+    "40mg"
+   ],
+   "disease_en": "High BP",
+   "icd11": "BA00",
+   "hi": "High BP ke liye. Roz 1, pregnant mahila NA le.",
+   "bn": "High BP er jonno. Gorvoboti neben na.",
+   "mr": "High BP sathi. Garbhavati ne gheu naye.",
+   "red_flag": true,
+   "note": "Unsafe in pregnancy",
+   "dz": {
+    "hi": "High BP",
+    "bn": "High BP",
+    "mr": "High BP"
+   }
+  },
+  {
+   "name": "amlodipine",
+   "brands": [
+    "amlopress",
+    "stamlo"
+   ],
+   "mg": [
+    "5mg",
+    "10mg"
+   ],
+   "disease_en": "High BP",
+   "icd11": "BA00",
+   "hi": "BP ke liye. Pair me sujan ho sakti hai, to doctor ko batao.",
+   "bn": "BP er jonno. Pa fola hote pare.",
+   "mr": "BP sathi. Payala suj aalyas sanga.",
+   "red_flag": false,
+   "note": "Ankle swelling common",
+   "dz": {
+    "hi": "High BP",
+    "bn": "High BP",
+    "mr": "High BP"
+   }
+  },
+  {
+   "name": "atenolol",
+   "brands": [
+    "aten"
+   ],
+   "mg": [
+    "25mg",
+    "50mg"
+   ],
+   "disease_en": "High BP / Heart rate",
+   "icd11": "BA00",
+   "hi": "BP/dil ki dhadkan ke liye. Achanak band mat karo.",
+   "bn": "BP er jonno. Hothat bondho noy.",
+   "mr": "BP sathi. Achanak band naka.",
+   "red_flag": true,
+   "note": "Never stop abruptly",
+   "dz": {
+    "hi": "High BP",
+    "bn": "High BP",
+    "mr": "High BP"
+   }
+  },
+  {
+   "name": "hydrochlorothiazide",
+   "brands": [
+    "hydrazide",
+    "telma-h"
+   ],
+   "mg": [
+    "12.5mg",
+    "25mg"
+   ],
+   "disease_en": "High BP (water pill)",
+   "icd11": "BA00",
+   "hi": "Peshab badhane wali BP dawai. Subah lo, raat ko nahi.",
+   "bn": "Prosrab barano BP osudh. Sokale neben.",
+   "mr": "Lagvi vadhavnari BP goli. Sakali ghya.",
+   "red_flag": false,
+   "note": "Take in morning",
+   "dz": {
+    "hi": "High BP (peshab wali)",
+    "bn": "High BP",
+    "mr": "High BP"
+   }
+  },
+  {
+   "name": "enalapril",
+   "brands": [
+    "enam"
+   ],
+   "mg": [
+    "2.5mg",
+    "5mg"
+   ],
+   "disease_en": "High BP / Heart",
+   "icd11": "BA00",
+   "hi": "BP/dil ke liye. Sukhi khansi ho to doctor ko batao.",
+   "bn": "BP er jonno. Shukno kashi hole doctor.",
+   "mr": "BP sathi. Korada khokla aalyas sanga.",
+   "red_flag": false,
+   "note": "Dry cough common",
+   "dz": {
+    "hi": "High BP / Dil",
+    "bn": "High BP / Heart",
+    "mr": "High BP / Hruday"
+   }
+  },
+  {
+   "name": "atorvastatin",
+   "brands": [
+    "lipitor",
+    "storvas"
+   ],
+   "mg": [
+    "10mg",
+    "20mg"
+   ],
+   "disease_en": "High Cholesterol",
+   "icd11": "5C80",
+   "hi": "Cholesterol ke liye. Raat ko 1, tel-masala kam. Maanspeshiyon me dard rahe to doctor.",
+   "bn": "Cholesterol er jonno. Raate 1.",
+   "mr": "Cholesterolsathi. Ratri 1.",
+   "red_flag": false,
+   "note": "Muscle pain watch",
+   "dz": {
+    "hi": "Cholesterol",
+    "bn": "Cholesterol",
+    "mr": "Cholesterol"
+   }
+  },
+  {
+   "name": "rosuvastatin",
+   "brands": [
+    "roseday",
+    "crestor"
+   ],
+   "mg": [
+    "10mg"
+   ],
+   "disease_en": "High Cholesterol",
+   "icd11": "5C80",
+   "hi": "Cholesterol ke liye. Raat ko 1.",
+   "bn": "Cholesterol er jonno. Raate 1.",
+   "mr": "Cholesterolsathi. Ratri 1.",
+   "red_flag": false,
+   "note": "Same as atorva",
+   "dz": {
+    "hi": "Cholesterol",
+    "bn": "Cholesterol",
+    "mr": "Cholesterol"
+   }
+  },
+  {
+   "name": "omeprazole",
+   "brands": [
+    "omez"
+   ],
+   "mg": [
+    "20mg"
+   ],
+   "disease_en": "Acidity / Gastric",
+   "icd11": "DA00",
+   "hi": "Acidity ke liye. Subah khali pet 1, 2-4 hafte.",
+   "bn": "Acidity er jonno. Sokale khali pete.",
+   "mr": "Aamlatpittasathi. Sakali anashapoti.",
+   "red_flag": false,
+   "note": "Black stool = emergency",
+   "dz": {
+    "hi": "Acidity",
+    "bn": "Acidity",
+    "mr": "Aamlapitta"
+   }
+  },
+  {
+   "name": "pantoprazole",
+   "brands": [
+    "pan"
+   ],
+   "mg": [
+    "40mg"
+   ],
+   "disease_en": "Acidity / Gastric",
+   "icd11": "DA00",
+   "hi": "Acidity ke liye. Subah khali pet.",
+   "bn": "Acidity er jonno. Sokale khali pete.",
+   "mr": "Aamlatpittasathi. Sakali anashapoti.",
+   "red_flag": false,
+   "note": "Same class as omeprazole",
+   "dz": {
+    "hi": "Acidity",
+    "bn": "Acidity",
+    "mr": "Aamlapitta"
+   }
+  },
+  {
+   "name": "antacid",
+   "brands": [
+    "digene",
+    "gelusil",
+    "eno"
+   ],
+   "mg": [
+    "syp/sachet"
+   ],
+   "disease_en": "Acidity / Gas",
+   "icd11": "DA00",
+   "hi": "Gas/acidity me turant aaram. Khane ke baad 2 chammach.",
+   "bn": "Gas/acidity te aram. Khabar pore.",
+   "mr": "Gas/aamlapittat aaram. Jevnanantar.",
+   "red_flag": false,
+   "note": "Other dawai se 2hr gap",
+   "dz": {
+    "hi": "Acidity / Gas",
+    "bn": "Acidity / Gas",
+    "mr": "Aamlapitta / Gas"
+   }
+  },
+  {
+   "name": "ondansetron",
+   "brands": [
+    "emset",
+    "vomikind"
+   ],
+   "mg": [
+    "4mg"
+   ],
+   "disease_en": "Vomiting (Ulti)",
+   "icd11": "MD90",
+   "hi": "Ulti rokne ke liye. Jeebh par ghulne wali, paani nahi chahiye.",
+   "bn": "Bomi bondher jonno.",
+   "mr": "Ulti thambvanyasathi.",
+   "red_flag": false,
+   "note": "If blood vomit = hospital",
+   "dz": {
+    "hi": "Ulti",
+    "bn": "Bomi",
+    "mr": "Ulti"
+   }
+  },
+  {
+   "name": "loperamide",
+   "brands": [
+    "eldoper"
+   ],
+   "mg": [
+    "2mg"
+   ],
+   "disease_en": "Diarrhea (Dast)",
+   "icd11": "1A00",
+   "hi": "Dast rokne ke liye. Saath me ORS zaroor piyo. Khooni dast me NA lo.",
+   "bn": "Dast bondher jonno. Sathe ORS. Rokto dast e neben na.",
+   "mr": "Julaab thambvanyasathi. Sobat ORS. Raktajulaab asalyas naka.",
+   "red_flag": true,
+   "note": "No use in bloody diarrhea",
+   "dz": {
+    "hi": "Dast",
+    "bn": "Dast",
+    "mr": "Julaab"
+   }
+  },
+  {
+   "name": "ors",
+   "brands": [
+    "electral",
+    "ors-l"
+   ],
+   "mg": [
+    "sachet"
+   ],
+   "disease_en": "Dehydration",
+   "icd11": "1A00",
+   "hi": "Dast/ulti me paani ki kami. Uble paani me ghol ke thoda-thoda piyo.",
+   "bn": "Dast/bomi te jol ghatti. Futano jole gule khan.",
+   "mr": "Panyachi kamtarta. Ukalalelya panyat gholun pya.",
+   "red_flag": false,
+   "note": "No urine 6hr = hospital",
+   "dz": {
+    "hi": "Paani ki kami",
+    "bn": "Jol ghatti",
+    "mr": "Panyachi kamtarta"
+   }
+  },
+  {
+   "name": "cetirizine",
+   "brands": [
+    "cetzine",
+    "alerid"
+   ],
+   "mg": [
+    "10mg"
+   ],
+   "disease_en": "Allergy / Cold / Itch",
+   "icd11": "CA08",
+   "hi": "Chheenk/khujli ke liye. Raat ko 1, neend aa sakti hai, gaadi mat chalao.",
+   "bn": "Hanchi/chulkani. Raate 1, ghum aste pare.",
+   "mr": "Shink/khaj. Ratri 1, zop yeu shakte.",
+   "red_flag": false,
+   "note": "Drowsy — no driving",
+   "dz": {
+    "hi": "Allergy / zukham",
+    "bn": "Allergy / sordi",
+    "mr": "Allergy / sardi"
+   }
+  },
+  {
+   "name": "levocetirizine",
+   "brands": [
+    "levocet",
+    "xero"
+   ],
+   "mg": [
+    "5mg"
+   ],
+   "disease_en": "Allergy",
+   "icd11": "CA08",
+   "hi": "Allergy ke liye, kam neend wali. Raat ko 1.",
+   "bn": "Allergy er jonno. Raate 1.",
+   "mr": "Allergysathi. Ratri 1.",
+   "red_flag": false,
+   "note": "Less drowsy",
+   "dz": {
+    "hi": "Allergy",
+    "bn": "Allergy",
+    "mr": "Allergy"
+   }
+  },
+  {
+   "name": "montelukast",
+   "brands": [
+    "montair"
+   ],
+   "mg": [
+    "10mg"
+   ],
+   "disease_en": "Asthma / Allergy",
+   "icd11": "CA23",
+   "hi": "Dama/allergy ke liye. Roz raat ko 1, attack me inhaler hi kaam karega.",
+   "bn": "Hapani/allergy. Roz raate 1.",
+   "mr": "Dama/allergy. Roz ratri 1.",
+   "red_flag": false,
+   "note": "Not for acute attack",
+   "dz": {
+    "hi": "Dama / allergy",
+    "bn": "Hapani / allergy",
+    "mr": "Dama / allergy"
+   }
+  },
+  {
+   "name": "salbutamol-inhaler",
+   "brands": [
+    "ast carrin",
+    "aerocort"
+   ],
+   "mg": [
+    "100mcg"
+   ],
+   "disease_en": "Asthma attack relief",
+   "icd11": "CA23",
+   "hi": "Dama attack me turant aaram. Technique seekho, hafte me 2+ baar lage to doctor.",
+   "bn": "Hapani attack e aram.",
+   "mr": "Dama zatkyat aaram.",
+   "red_flag": true,
+   "note": "Overuse = uncontrolled asthma",
+   "dz": {
+    "hi": "Dama attack me aaram",
+    "bn": "Hapani attack e aram",
+    "mr": "Dama zatkyat aaram"
+   }
+  },
+  {
+   "name": "cough-syrup",
+   "brands": [
+    "benadryl",
+    "grilinctus",
+    "honitus"
+   ],
+   "mg": [
+    "2tsp"
+   ],
+   "disease_en": "Cough (Khansi)",
+   "icd11": "MD12",
+   "hi": "Khansi ke liye. Raat ko 2 chammach. 2 hafte se zyada khansi = TB test.",
+   "bn": "Kashir jonno. 2 soptaho besi = TB test.",
+   "mr": "Khoklyasathi. 2 aathvadyanpeksha jast = TB chachani.",
+   "red_flag": false,
+   "note": "Chronic cough = TB check",
+   "dz": {
+    "hi": "Khansi",
+    "bn": "Kashi",
+    "mr": "Khokla"
+   }
+  },
+  {
+   "name": "levothyroxine",
+   "brands": [
+    "thyrox",
+    "eltroxin"
+   ],
+   "mg": [
+    "25mcg",
+    "50mcg",
+    "100mcg"
+   ],
+   "disease_en": "Thyroid (low)",
+   "icd11": "5A00",
+   "hi": "Thyroid ke liye. Subah khali pet, doodh/chai se 1hr gap. Roz same time.",
+   "bn": "Thyroid er jonno. Sokale khali pete.",
+   "mr": "Thyroidsathi. Sakali anashapoti.",
+   "red_flag": false,
+   "note": "Empty stomach, same time",
+   "dz": {
+    "hi": "Thyroid",
+    "bn": "Thyroid",
+    "mr": "Thyroid"
+   }
+  },
+  {
+   "name": "iron-folic",
+   "brands": [
+    "feronia",
+    "autrin"
+   ],
+   "mg": [
+    "100mg+500mcg"
+   ],
+   "disease_en": "Anemia (Khoon ki kami)",
+   "icd11": "3A00",
+   "hi": "Khoon badhane ke liye. Roz 1, chai ke saath mat lo, nimbu ke saath lo.",
+   "bn": "Rokto baranor jonno. Cha sathe noy.",
+   "mr": "Rakt vadhvanyasathi. Chaha sobat naka.",
+   "red_flag": false,
+   "note": "Black stool normal",
+   "dz": {
+    "hi": "Khoon ki kami",
+    "bn": "Rokto solpota",
+    "mr": "Raktachi kamtarta"
+   }
+  },
+  {
+   "name": "vitamin-d3",
+   "brands": [
+    "arachitol",
+    "uprise-d3"
+   ],
+   "mg": [
+    "60k IU"
+   ],
+   "disease_en": "Vitamin D deficiency",
+   "icd11": "5B61",
+   "hi": "Haddiyon ke liye. Hafte me 1 (doctor dose), doodh ke saath.",
+   "bn": "Harer jonno. Soptahe 1.",
+   "mr": "Hadasathi. Aathvadyatun 1.",
+   "red_flag": false,
+   "note": "Weekly, not daily",
+   "dz": {
+    "hi": "Vitamin D ki kami",
+    "bn": "Vitamin D ghatti",
+    "mr": "Vitamin D kamtarta"
+   }
+  },
+  {
+   "name": "vitamin-b12",
+   "brands": [
+    "neurobion",
+    "cobadex"
+   ],
+   "mg": [
+    "1500mcg"
+   ],
+   "disease_en": "B12 deficiency / Nerves",
+   "icd11": "3A00",
+   "hi": "Nas/kamzori ke liye. Roz 1, shakahariyon ke liye zaroori.",
+   "bn": "Snayu/durbolota. Roz 1.",
+   "mr": "Nasya/ashaktapana. Roz 1.",
+   "red_flag": false,
+   "note": "Key for vegetarians",
+   "dz": {
+    "hi": "B12 / nas kamzori",
+    "bn": "B12 / snayu",
+    "mr": "B12 / nasya"
+   }
+  },
+  {
+   "name": "calcium",
+   "brands": [
+    "shelcal",
+    "ccal"
+   ],
+   "mg": [
+    "500mg"
+   ],
+   "disease_en": "Bones (Calcium)",
+   "icd11": "5B61",
+   "hi": "Haddiyon ke liye. Khane ke saath, iron se alag time par lo.",
+   "bn": "Harer jonno. Iron theke alada somoy.",
+   "mr": "Hadasathi. Lohapasun veglya veli.",
+   "red_flag": false,
+   "note": "Separate from iron",
+   "dz": {
+    "hi": "Haddi (calcium)",
+    "bn": "Har (calcium)",
+    "mr": "Hade (calcium)"
+   }
+  },
+  {
+   "name": "zinc",
+   "brands": [
+    "zinconia"
+   ],
+   "mg": [
+    "20mg"
+   ],
+   "disease_en": "Immunity / Diarrhea in kids",
+   "icd11": "5B61",
+   "hi": "Bacchon ke dast me ORS ke saath 10-14 din.",
+   "bn": "Bachchader dast e ORS sathe.",
+   "mr": "Mulanchya julaabat ORS sobat.",
+   "red_flag": false,
+   "note": "With ORS for kids",
+   "dz": {
+    "hi": "Bacchon ki suraksha",
+    "bn": "Bachchader surakkha",
+    "mr": "Mulanche sanrakshan"
+   }
+  },
+  {
+   "name": "antifungal-cream",
+   "brands": [
+    "candid",
+    "ring-guard"
+   ],
+   "mg": [
+    "cream"
+   ],
+   "disease_en": "Fungal infection (Daad)",
+   "icd11": "1F20",
+   "hi": "Daad/khajli par. Saaf-sukhi rakho, 2-4 hafte lagao, beech me mat chhodo.",
+   "bn": "Dad/chulkani te. 2-4 soptaho lagan.",
+   "mr": "Gajkarnavar. 2-4 aathvade lava.",
+   "red_flag": false,
+   "note": "Keep dry, full course",
+   "dz": {
+    "hi": "Daad / fungal",
+    "bn": "Dad",
+    "mr": "Gajkaran"
+   }
+  },
+  {
+   "name": "chloroquine",
+   "brands": [
+    "lariago"
+   ],
+   "mg": [
+    "250mg"
+   ],
+   "disease_en": "Malaria",
+   "icd11": "1F40",
+   "hi": "Malaria ke liye. Test ke baad hi, course pura. Bukhar wapas aaye to turant hospital.",
+   "bn": "Malaria r jonno. Test er por, course sesh.",
+   "mr": "Hivtap sathi. Chachani nanter, course purna.",
+   "red_flag": true,
+   "note": "Only after positive test",
+   "dz": {
+    "hi": "Malaria",
+    "bn": "Malaria",
+    "mr": "Hivtapa"
+   }
+  },
+  {
+   "name": "tb-dots",
+   "brands": [
+    "akurit"
+   ],
+   "mg": [
+    "combo"
+   ],
+   "disease_en": "TB (6-month course)",
+   "icd11": "1B10",
+   "hi": "TB ka 6 mahine course. 1 din bhi miss mat karo, DOTS center se muft milti hai.",
+   "bn": "TB r 6 masher course. Miss noy, DOTS theke free.",
+   "mr": "Kshayarogacha 6 mahinyancha course. Chukvu naka, DOTS madhun mofat.",
+   "red_flag": true,
+   "note": "Missed dose = drug-resistant TB",
+   "dz": {
+    "hi": "TB",
+    "bn": "TB",
+    "mr": "Kshayrog"
+   }
+  },
+  {
+   "name": "prednisolone",
+   "brands": [
+    "wysolone"
+   ],
+   "mg": [
+    "5mg",
+    "10mg"
+   ],
+   "disease_en": "Severe allergy/asthma (steroid)",
+   "icd11": "CA23",
+   "hi": "Steroid — doctor dose se kam-zyada mat karo, achanak band mat karo.",
+   "bn": "Steroid — nije kom-besi noy.",
+   "mr": "Steroid — swataha badal naka.",
+   "red_flag": true,
+   "note": "Taper only, sugar rises",
+   "dz": {
+    "hi": "Steroid dawai",
+    "bn": "Steroid osudh",
+    "mr": "Steroid aushadh"
+   }
+  },
+  {
+   "name": "multivitamin",
+   "brands": [
+    "becosules",
+    "supradyn"
+   ],
+   "mg": [
+    "daily"
+   ],
+   "disease_en": "Weakness",
+   "icd11": "MG48",
+   "hi": "Kamzori ke liye. Roz 1 khane ke baad. Khana hi asli dawai hai.",
+   "bn": "Durbolotar jonno. Roz 1.",
+   "mr": "Ashaktapanasathi. Roz 1.",
+   "red_flag": false,
+   "note": "Food first",
+   "dz": {
+    "hi": "Kamzori",
+    "bn": "Durbolota",
+    "mr": "Ashaktapana"
+   }
+  },
+  {
+   "name": "eye-drop",
+   "brands": [
+    "refresh-tears"
+   ],
+   "mg": [
+    "drops"
+   ],
+   "disease_en": "Dry eyes",
+   "icd11": "9A00",
+   "hi": "Aankhon ki jalan/sukhapn ke liye. Din me 2-3 baar 1 boond.",
+   "bn": "Chokh jolay. Dine 2-3 bar.",
+   "mr": "Dolyanchi jaljal. Divsatun 2-3 vela.",
+   "red_flag": false,
+   "note": "No sharing bottles",
+   "dz": {
+    "hi": "Aankh sukhaapan",
+    "bn": "Chokh shukano",
+    "mr": "Dolhe kordepana"
+   }
+  },
+  {
+   "name": "pain-gel",
+   "brands": [
+    "volini",
+    "moov"
+   ],
+   "mg": [
+    "gel"
+   ],
+   "disease_en": "Muscle pain (lep)",
+   "icd11": "ME82",
+   "hi": "Dard par lagane wala gel. Din me 2-3 baar, aankh me na lage.",
+   "bn": "Byathay laganor gel.",
+   "mr": "Dukhivar lavayche gel.",
+   "red_flag": false,
+   "note": "External only",
+   "dz": {
+    "hi": "Maanspeshi dard (lep)",
+    "bn": "Mangser byatha (lep)",
+    "mr": "Snayu dukhi (lep)"
+   }
+  }
+ ]
+}

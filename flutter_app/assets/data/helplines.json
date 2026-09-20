@@ -1,0 +1,10 @@
+{"meta":{"note":"All-India health helplines for Suvidha view + footer"},"helplines":[
+{"name":"Ambulance (all states)","number":"108","when_hi":"Emergency — accident, delivery, dil ka daura","when_bn":"Emergency — durghotona, delivery","when_mr":"Emergency — apghat, delivery"},
+{"name":"Emergency (single)","number":"112","when_hi":"Police + ambulance + fire, ek number","when_bn":"Police + ambulance, ek number","when_mr":"Police + ambulance, ek number"},
+{"name":"Health helpline","number":"104","when_hi":"Doctor salah, dawai jankari, shikayat","when_bn":"Doctor poramorsho","when_mr":"Doctor salla"},
+{"name":"Ayushman Bharat","number":"14555","when_hi":"PM-JAY patrata, card, hospital","when_bn":"PM-JAY card, hospital","when_mr":"PM-JAY patrata, card"},
+{"name":"Jan Aushadhi","number":"1800-180-8080","when_hi":"Sasti dawai, Kendra address","when_bn":"Sosta osudh, Kendra","when_mr":"Swast aushadh, Kendra"},
+{"name":"Child helpline","number":"1098","when_hi":"Bacchon ki suraksha, emergency","when_bn":"Shishu surakkha","when_mr":"Mulanche sanrakshan"},
+{"name":"Women helpline","number":"181","when_hi":"Mahila suraksha, salah","when_bn":"Mohila surakkha","when_mr":"Mahila suraksha"},
+{"name":"Blood requirement","number":"104","when_hi":"Khoon ki zaroorat par 104 dabao","when_bn":"Rokto dorkar e 104","when_mr":"Raktasathi 104"}
+]}

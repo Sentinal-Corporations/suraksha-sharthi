@@ -1,0 +1,36 @@
+name: suraksha_parchi
+description: Suraksha Parchi by Team CHANAKYA — Clear Parchi, Safe Patient. BIC 2.0.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  image_picker: ^1.0.8
+  google_mlkit_text_recognition: ^0.13.1
+  flutter_tts: ^4.0.2
+  speech_to_text: ^6.6.0
+  http: ^1.2.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  appwrite: ^12.0.0
+  postgres: ^2.6.2
+  firebase_core: ^2.32.0
+  firebase_messaging: ^14.9.3
+  url_launcher: ^6.2.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/medicines.json
+    - assets/data/interactions.json
+    - assets/data/jan_aushadhi.json
+    - assets/data/ayushman.json
+    - assets/data/helplines.json
+    - assets/data/lab_range.json
