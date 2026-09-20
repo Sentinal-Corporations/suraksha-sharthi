@@ -1,0 +1,4 @@
+storePassword=PASTE_STORE_PASSWORD
+keyPassword=PASTE_KEY_PASSWORD
+keyAlias=upload
+storeFile=upload-keystore.jks

@@ -13,6 +13,7 @@ class FillupPage extends StatefulWidget {
 
 class _FillupState extends State<FillupPage> {
   final _name = TextEditingController();
+  final _ph = TextEditingController();
   final _sym = TextEditingController();
   String _conf = '';
 
@@ -36,6 +37,7 @@ class _FillupState extends State<FillupPage> {
       ElevatedButton.icon(onPressed: _pick, icon: const Icon(Icons.camera_alt), label: const Text('Parchi photo lo')),
       if (_conf.isNotEmpty) Text(_conf, style: const TextStyle(color: Color(0xFF0E7C7B), fontWeight: FontWeight.bold)),
       TextField(controller: _name, decoration: const InputDecoration(labelText: 'Name (optional)')),
+      TextField(controller: _ph, keyboardType: TextInputType.phone, decoration: const InputDecoration(labelText: 'Phone for reminders (optional)')),
       DropdownButtonFormField<String>(
         value: widget.scan.lang,
         items: const [DropdownMenuItem(value: 'hi', child: Text('Hindi')), DropdownMenuItem(value: 'bn', child: Text('Bengali')), DropdownMenuItem(value: 'mr', child: Text('Marathi'))],

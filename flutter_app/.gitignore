@@ -1,7 +1,10 @@
 .dart_tool/
 build/
 *.apk
+*.aab
 google-services.json
 GoogleService-Info.plist
 firebase_options.dart
 .env
+android/key.properties
+android/upload-keystore.jks

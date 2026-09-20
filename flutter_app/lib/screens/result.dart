@@ -47,7 +47,7 @@ class _ResultState extends State<ResultPage> {
                   icon: const Icon(Icons.volume_up), label: const Text('Voice me suno')),
               const SizedBox(width: 8),
               ElevatedButton.icon(onPressed: () => Store.save(
-                  {'d': DateTime.now().toString(), 'drugs': r.rows.map((e) => e.generic).toList(), 'lang': widget.scan.lang}),
+                  {'d': DateTime.now().toString(), 'nm': widget.scan.name, 'phone': widget.scan.phone, 'drugs': r.rows.map((e) => e.generic).toList(), 'lang': widget.scan.lang}),
                   icon: const Icon(Icons.save), label: const Text('Save')),
             ]),
           ]),
