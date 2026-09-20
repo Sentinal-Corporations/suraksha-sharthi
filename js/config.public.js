@@ -10,8 +10,8 @@ window.APP_CONFIG = {
   // "custom" = any OpenAI-compatible model via YOUR server proxy.
   // proxyUrl holds NO keys in frontend — keys live in server .env only.
   llm: { backend: "rules", model: "needle-2",
-    needle2: { enabled: true, weightsPath: "../engine/needle2.cact",
-      wasmEngine: "../engine/wasm/wasm/needle.wasm",
+    needle2: { enabled: true, weightsPath: "engine/needle2.cact",
+      wasmEngine: "engine/wasm/wasm/needle.wasm",
       tools: ["explain_dose", "jan_aushadhi_price", "check_interaction"] },
     proxyUrl: "" }
 };

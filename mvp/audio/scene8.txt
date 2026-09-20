@@ -1,3 +1,0 @@
-IMG=architecture.png
-CAP=TECH — 14MB AI, offline-first
-NAR=Under the hood: hybrid O C R, Bhashini voices plus offline fallback, and a verified database of forty nine medicines with twelve interaction rules. Our A I, Needle two, is fourteen megabytes, runs on the phone itself with no internet, and only calls our verified tools, never inventing doses. Low confidence means ask a human.

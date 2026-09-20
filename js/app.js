@@ -186,7 +186,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   $("themeBtn").onclick = flipTheme;
   if ($("sideThemeBtn")) $("sideThemeBtn").onclick = flipTheme;
   $("up").onchange = e => { const f = e.target.files[0]; if (f) $("pv").src = URL.createObjectURL(f); };
-  $("useSample").onclick = () => { $("pv").src = "../branding/sample-parchi.png"; };
+  $("useSample").onclick = () => { $("pv").src = "branding/sample-parchi.png"; };
   $("scanBtn").onclick = () => { $("conf").textContent = "Conf 87% (smart read)"; renderChips(); };
   $("addBtn").onclick = () => { if (!found.includes("crocin")) found.push("crocin"); renderChips(); };
   $("expBtn").onclick = () => { buildResult(); go("main"); };

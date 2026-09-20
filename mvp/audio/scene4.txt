@@ -1,3 +1,0 @@
-IMG=sample-parchi.png
-CAP=DEMO 1 — Scan to Read, 87%
-NAR=Watch the demo. We photograph a real messy parchi, Crocin plus Azithro. The offline reader gives sixty two percent confidence, so the smart reader takes over and reaches eighty seven percent. Anything unsure gets a tap to confirm button, so a human always stays in charge of handwriting the machine cannot read.

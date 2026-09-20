@@ -1,3 +1,0 @@
-IMG=phone-timetable.png
-CAP=DEMO 3 — Duplicate RED alert
-NAR=Here is the crowd moment. Add Dolo beside Crocin. Both are paracetamol brands. The app fires a red duplicate alert, overdose will damage the liver, ask the doctor. High risk drugs like insulin or T B medicines never get guesses, only a referral. Safety first, always.
